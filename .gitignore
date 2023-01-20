@@ -68,6 +68,8 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+.idea
+
 # dotenv environment variables file
 .env
 .env.test
@@ -102,3 +104,6 @@ dist
 
 # TernJS port file
 .tern-port
+/test-results/
+/playwright-report/
+/playwright/.cache/

@@ -1,0 +1,17 @@
+{
+  "name": "docusaurus-visual-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:slorber/docusaurus-visual-tests.git",
+  "author": "sebastienlorber <lorber.sebastien@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.29.2",
+    "prettier": "^2.8.3"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:pr": "SITE_URL='https://deploy-preview-8288--docusaurus-2.netlify.app' playwright test",
+    "report": "playwright show-report"
+  }
+}
