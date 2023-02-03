@@ -31,6 +31,15 @@ const pathnames: (string | [string, object])[] = [
   "/search",
 ];
 
+// Hide elements that may vary between prod/preview
+const stylesheet = `
+iframe, 
+article.yt-lite, 
+.theme-last-updated {
+  visibility: hidden;
+}
+`;
+
 test.describe("Docusaurus site screenshots", () => {
   for (const pathnameItem of pathnames) {
     const [pathname, options] =
@@ -39,6 +48,7 @@ test.describe("Docusaurus site screenshots", () => {
     test(`pathname ${pathname}`, async ({ page }) => {
       const url = siteUrl + pathname;
       await page.goto(url);
+      await page.addStyleTag({ content: stylesheet });
       await expect(page).toHaveScreenshot({ fullPage: true, ...options });
     });
   }
