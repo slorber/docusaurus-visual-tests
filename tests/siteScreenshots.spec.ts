@@ -7,7 +7,7 @@ const siteUrl =
   process.env.SITE_URL ??
   "https://deploy-preview-8288--docusaurus-2.netlify.app";
 
-console.log("siteUrl", siteUrl);
+console.log("siteUrl test", siteUrl);
 
 const pathnames: (string | [string, object])[] = [
   ["/", { maxDiffPixels: 100 }],
