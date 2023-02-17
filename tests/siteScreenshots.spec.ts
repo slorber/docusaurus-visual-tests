@@ -1,6 +1,7 @@
 // siteScreenshots.spec.ts
 import { test, expect } from "@playwright/test";
 import { argosScreenshot } from "@argos-ci/playwright";
+import * as path from "path";
 
 const siteUrl = process.env.SITE_URL ?? "https://docusaurus.io";
 
@@ -41,6 +42,20 @@ article.yt-lite,
 }
 `;
 
+function argosName(pathname: string): string {
+  function removeTrailingSlash(str: string): string {
+    return str.endsWith("/") ? str.slice(0, -1) : str;
+  }
+  function removeLeadingSlash(str: string): string {
+    return str.startsWith("/") ? str.slice(1) : str;
+  }
+
+  pathname = removeTrailingSlash(pathname);
+  pathname = removeLeadingSlash(pathname);
+
+  return pathname;
+}
+
 test.describe("Docusaurus site screenshots", () => {
   for (const pathnameItem of pathnames) {
     const [pathname, options] =
@@ -50,8 +65,8 @@ test.describe("Docusaurus site screenshots", () => {
       const url = siteUrl + pathname;
       await page.goto(url);
       await page.addStyleTag({ content: stylesheet });
-      await expect(page).toHaveScreenshot({ fullPage: true, ...options });
-      await argosScreenshot(page, pathname, {});
+      // await expect(page).toHaveScreenshot({ fullPage: true, ...options });
+      await argosScreenshot(page, argosName(pathname));
     });
   }
 });
