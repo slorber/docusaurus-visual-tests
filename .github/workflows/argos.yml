@@ -23,7 +23,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: npm ci
+        run: yarn install
 
       # -----
       # Insert here your steps required to take screenshots of
