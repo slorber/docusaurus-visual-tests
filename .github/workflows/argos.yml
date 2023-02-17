@@ -1,4 +1,4 @@
-name: CI
+name: Argos CI
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  ci:
+  take-screenshots:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
