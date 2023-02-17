@@ -15,7 +15,7 @@ const pathnames: (string | [string, object])[] = [
 
   "/docs/markdown-features/",
   "/docs/markdown-features/admonitions/",
-  "/docs/markdown-features/assets/",
+  // "/docs/markdown-features/assets/", // TODO re-enable after https://github.com/argos-ci/argos-playwright/issues/1
   ["/docs/markdown-features/code-blocks/", { maxDiffPixels: 1000 }],
   "/docs/markdown-features/diagrams/",
   "/docs/markdown-features/head-metadata/",
@@ -26,7 +26,7 @@ const pathnames: (string | [string, object])[] = [
   "/docs/markdown-features/tabs/",
   "/docs/markdown-features/toc/",
 
-  "/blog",
+  // "/blog",  // TODO re-enable after https://github.com/argos-ci/argos-playwright/issues/1
   "/blog/2017/12/14/introducing-docusaurus/",
 
   "/changelog/2.2.0",
@@ -42,7 +42,7 @@ article.yt-lite,
 }
 `;
 
-function argosName(pathname: string): string {
+function pathnameToArgosName(pathname: string): string {
   function removeTrailingSlash(str: string): string {
     return str.endsWith("/") ? str.slice(0, -1) : str;
   }
@@ -52,6 +52,10 @@ function argosName(pathname: string): string {
 
   pathname = removeTrailingSlash(pathname);
   pathname = removeLeadingSlash(pathname);
+
+  if (pathname === "") {
+    return "_ROOT";
+  }
 
   return pathname;
 }
@@ -66,7 +70,7 @@ test.describe("Docusaurus site screenshots", () => {
       await page.goto(url);
       await page.addStyleTag({ content: stylesheet });
       // await expect(page).toHaveScreenshot({ fullPage: true, ...options });
-      await argosScreenshot(page, argosName(pathname));
+      await argosScreenshot(page, pathnameToArgosName(pathname));
     });
   }
 });
