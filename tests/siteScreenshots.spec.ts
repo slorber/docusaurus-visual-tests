@@ -1,5 +1,6 @@
 // siteScreenshots.spec.ts
 import { test, expect } from "@playwright/test";
+import { argosScreenshot } from "@argos-ci/playwright";
 
 const siteUrl = process.env.SITE_URL ?? "https://docusaurus.io";
 
@@ -50,6 +51,7 @@ test.describe("Docusaurus site screenshots", () => {
       await page.goto(url);
       await page.addStyleTag({ content: stylesheet });
       await expect(page).toHaveScreenshot({ fullPage: true, ...options });
+      await argosScreenshot(page, pathname, {});
     });
   }
 });
