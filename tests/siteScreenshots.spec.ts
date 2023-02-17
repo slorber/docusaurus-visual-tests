@@ -3,7 +3,9 @@ import { test, expect } from "@playwright/test";
 import { argosScreenshot } from "@argos-ci/playwright";
 import * as path from "path";
 
-const siteUrl = process.env.SITE_URL ?? "https://docusaurus.io";
+const siteUrl =
+  process.env.SITE_URL ??
+  "https://deploy-preview-8288--docusaurus-2.netlify.app";
 
 console.log("siteUrl", siteUrl);
 
