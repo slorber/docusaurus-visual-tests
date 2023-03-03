@@ -37,6 +37,16 @@ const pathnames: (string | [string, object])[] = [
 
  */
 
+const BlacklistedPathnames: string[] = [
+  // TODO remove once MDX 2 PR merged
+  // reports unimportant false positives, see https://app.argos-ci.com/slorber/docusaurus-visual-tests/builds/10/40206590
+  "/docs/api/themes/configuration",
+  // reports unimportant false positives, see https://app.argos-ci.com/slorber/docusaurus-visual-tests/builds/10/40206618
+  "/docs/api/themes/@docusaurus/theme-classic",
+  // reports unimportant false positives, see https://app.argos-ci.com/slorber/docusaurus-visual-tests/builds/10/40206528
+  "/docs/installation",
+];
+
 const getPathnames = function (): string[] {
   const sitemap = JSON.parse(
     fs.readFileSync("./docusaurus-sitemap.json") as any
@@ -46,10 +56,12 @@ const getPathnames = function (): string[] {
   const pathnames = urls
     .map((url) => url.replace("https://docusaurus.io/", "/"))
     .filter(
-      (url) =>
-        !url.startsWith("/changelog") &&
-        !url.match(/^\/docs\/(\d\.\d\.\d)|(next)\//)
+      (pathname) =>
+        !pathname.startsWith("/changelog") &&
+        !pathname.match(/^\/docs\/(\d\.\d\.\d)|(next)\//) &&
+        !BlacklistedPathnames.includes(pathname)
     );
+
   pathnames.sort();
 
   console.log("Pathnames:\n", JSON.stringify(pathnames, null, 2));
@@ -61,7 +73,8 @@ const getPathnames = function (): string[] {
 const stylesheet = `
 iframe, 
 article.yt-lite, 
-.theme-last-updated {
+.theme-last-updated,
+[class*='playgroundPreview'] {
   visibility: hidden;
 }
 `;
