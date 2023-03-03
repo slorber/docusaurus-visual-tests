@@ -1,0 +1,2751 @@
+{
+    "urlset": {
+        "url": [
+            {
+                "loc": "https://docusaurus.io/blog",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/2017/12/14/introducing-docusaurus",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/2018/04/30/How-I-Converted-Profilo-To-Docusaurus",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/2018/09/11/Towards-Docusaurus-2",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/2018/12/14/Happy-First-Birthday-Slash",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/2019/12/30/docusaurus-2019-recap",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/2020/01/07/tribute-to-endi",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/2021/01/19/docusaurus-2020-recap",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/2021/03/09/releasing-docusaurus-i18n",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/2021/05/12/announcing-docusaurus-two-beta",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/2021/11/21/algolia-docsearch-migration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/2022/01/24/docusaurus-2021-recap",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/2022/08/01/announcing-docusaurus-2.0",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/2022/09/01/docusaurus-2.1",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/archive",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/page/2",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/page/3",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/releases/2.2",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/releases/2.3",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/adoption",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/beta",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/birth",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/blog",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/documentation",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/docusaurus",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/endi",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/i-18-n",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/new",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/profilo",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/recap",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/release",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/release/page/2",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/search",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/blog/tags/tribute",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.19",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.20",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.21",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.22",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.23",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.24",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.25",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.26",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.27",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.28",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.29",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.30",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.31",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.32",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.33",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.34",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.35",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.36",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.37",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.38",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.39",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.40",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.41",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.43",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.44",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.48",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.49",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.50",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.51",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.53",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.54",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.55",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.56",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.57",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.58",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.59",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.60",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.61",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.62",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.63",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.64",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.65",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.66",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.67",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.68",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.69",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.70",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.71",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.72",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.73",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.74",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-alpha.75",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.0",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.1",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.10",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.11",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.12",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.13",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.14",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.15",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.16",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.17",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.18",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.19",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.2",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.20",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.21",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.22",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.3",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.4",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.5",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.6",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.7",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.8",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-beta.9",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.0-rc.1",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.0.1",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.1.0",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.2.0",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.3.0",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/2.3.1",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/page/2",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/page/3",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/page/4",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/page/5",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/changelog/V2%20Changelog",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/examples/markdownPageExample",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/feature-requests",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/search",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/showcase",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/tests",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/versions",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/community/canary",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/community/contributing",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/community/release-process",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/community/resources",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/community/support",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/community/team",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/advanced",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/advanced/architecture",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/advanced/client",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/advanced/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/advanced/routing",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/advanced/ssg",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/docusaurus-config",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/misc/@docusaurus/eslint-plugin",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/misc/@docusaurus/eslint-plugin/no-untranslated-text",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/misc/@docusaurus/eslint-plugin/string-literal-i18n-messages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/misc/@docusaurus/logger",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/misc/create-docusaurus",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugin-methods",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugin-methods/extend-infrastructure",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugin-methods/i18n-lifecycles",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugin-methods/lifecycle-apis",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugin-methods/static-methods",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugins/@docusaurus/plugin-client-redirects",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugins/@docusaurus/plugin-content-blog",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugins/@docusaurus/plugin-content-docs",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugins/@docusaurus/plugin-content-pages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugins/@docusaurus/plugin-debug",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugins/@docusaurus/plugin-google-analytics",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugins/@docusaurus/plugin-google-gtag",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugins/@docusaurus/plugin-ideal-image",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugins/@docusaurus/plugin-pwa",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/plugins/@docusaurus/plugin-sitemap",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/themes",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/themes/@docusaurus/theme-classic",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/themes/@docusaurus/theme-live-codeblock",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/themes/@docusaurus/theme-search-algolia",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/api/themes/configuration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/blog",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/browser-support",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/category/getting-started",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/category/guides",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/cli",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/configuration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/create-doc",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/creating-pages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/deployment",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/docs-introduction",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/docs-multi-instance",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/docusaurus-core",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/guides/whats-next",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/i18n/crowdin",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/i18n/git",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/i18n/introduction",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/i18n/tutorial",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/installation",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/markdown-features",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/markdown-features/admonitions",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/markdown-features/assets",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/markdown-features/code-blocks",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/markdown-features/head-metadata",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/markdown-features/links",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/markdown-features/math-equations",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/markdown-features/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/markdown-features/react",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/markdown-features/tabs",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/markdown-features/toc",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/migration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/migration/automated",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/migration/manual",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/migration/translated-sites",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/migration/versioned-sites",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/playground",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/search",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/seo",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/sidebar",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/sidebar/autogenerated",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/sidebar/items",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/sidebar/multiple-sidebars",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/static-assets",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/styling-layout",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/swizzling",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/typescript-support",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/using-plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.0.1/versioning",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/advanced",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/advanced/architecture",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/advanced/client",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/advanced/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/advanced/routing",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/advanced/ssg",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/docusaurus-config",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/misc/@docusaurus/eslint-plugin",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/misc/@docusaurus/eslint-plugin/no-untranslated-text",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/misc/@docusaurus/eslint-plugin/string-literal-i18n-messages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/misc/@docusaurus/logger",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/misc/create-docusaurus",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugin-methods",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugin-methods/extend-infrastructure",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugin-methods/i18n-lifecycles",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugin-methods/lifecycle-apis",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugin-methods/static-methods",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugins/@docusaurus/plugin-client-redirects",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugins/@docusaurus/plugin-content-blog",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugins/@docusaurus/plugin-content-docs",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugins/@docusaurus/plugin-content-pages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugins/@docusaurus/plugin-debug",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugins/@docusaurus/plugin-google-analytics",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugins/@docusaurus/plugin-google-gtag",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugins/@docusaurus/plugin-ideal-image",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugins/@docusaurus/plugin-pwa",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/plugins/@docusaurus/plugin-sitemap",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/themes",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/themes/@docusaurus/theme-classic",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/themes/@docusaurus/theme-live-codeblock",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/themes/@docusaurus/theme-search-algolia",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/api/themes/configuration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/blog",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/browser-support",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/category/getting-started",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/category/guides",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/cli",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/configuration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/create-doc",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/creating-pages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/deployment",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/docs-introduction",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/docs-multi-instance",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/docusaurus-core",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/guides/whats-next",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/i18n/crowdin",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/i18n/git",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/i18n/introduction",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/i18n/tutorial",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/installation",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/markdown-features",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/markdown-features/admonitions",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/markdown-features/assets",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/markdown-features/code-blocks",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/markdown-features/head-metadata",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/markdown-features/links",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/markdown-features/math-equations",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/markdown-features/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/markdown-features/react",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/markdown-features/tabs",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/markdown-features/toc",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/migration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/migration/automated",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/migration/manual",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/migration/translated-sites",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/migration/versioned-sites",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/playground",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/search",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/seo",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/sidebar",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/sidebar/autogenerated",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/sidebar/items",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/sidebar/multiple-sidebars",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/static-assets",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/styling-layout",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/swizzling",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/typescript-support",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/using-plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.1.0/versioning",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/advanced",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/advanced/architecture",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/advanced/client",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/advanced/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/advanced/routing",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/advanced/ssg",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/docusaurus-config",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/misc/@docusaurus/eslint-plugin",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/misc/@docusaurus/eslint-plugin/no-untranslated-text",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/misc/@docusaurus/eslint-plugin/string-literal-i18n-messages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/misc/@docusaurus/logger",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/misc/create-docusaurus",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugin-methods",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugin-methods/extend-infrastructure",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugin-methods/i18n-lifecycles",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugin-methods/lifecycle-apis",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugin-methods/static-methods",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugins/@docusaurus/plugin-client-redirects",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugins/@docusaurus/plugin-content-blog",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugins/@docusaurus/plugin-content-docs",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugins/@docusaurus/plugin-content-pages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugins/@docusaurus/plugin-debug",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugins/@docusaurus/plugin-google-analytics",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugins/@docusaurus/plugin-google-gtag",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugins/@docusaurus/plugin-ideal-image",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugins/@docusaurus/plugin-pwa",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/plugins/@docusaurus/plugin-sitemap",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/themes",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/themes/@docusaurus/theme-classic",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/themes/@docusaurus/theme-live-codeblock",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/themes/@docusaurus/theme-search-algolia",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/api/themes/configuration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/blog",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/browser-support",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/category/getting-started",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/category/guides",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/cli",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/configuration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/create-doc",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/creating-pages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/deployment",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/docs-introduction",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/docs-multi-instance",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/docusaurus-core",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/guides/whats-next",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/i18n/crowdin",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/i18n/git",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/i18n/introduction",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/i18n/tutorial",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/installation",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/markdown-features",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/markdown-features/admonitions",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/markdown-features/assets",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/markdown-features/code-blocks",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/markdown-features/diagrams",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/markdown-features/head-metadata",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/markdown-features/links",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/markdown-features/math-equations",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/markdown-features/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/markdown-features/react",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/markdown-features/tabs",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/markdown-features/toc",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/migration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/migration/automated",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/migration/manual",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/migration/translated-sites",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/migration/versioned-sites",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/playground",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/search",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/seo",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/sidebar",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/sidebar/autogenerated",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/sidebar/items",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/sidebar/multiple-sidebars",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/static-assets",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/styling-layout",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/swizzling",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/typescript-support",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/using-plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/2.2.0/versioning",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/advanced",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/advanced/architecture",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/advanced/client",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/advanced/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/advanced/routing",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/advanced/ssg",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/docusaurus-config",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/misc/@docusaurus/eslint-plugin",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/misc/@docusaurus/eslint-plugin/no-html-links",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/misc/@docusaurus/eslint-plugin/no-untranslated-text",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/misc/@docusaurus/eslint-plugin/prefer-docusaurus-heading",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/misc/@docusaurus/eslint-plugin/string-literal-i18n-messages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/misc/@docusaurus/logger",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/misc/create-docusaurus",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugin-methods",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugin-methods/extend-infrastructure",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugin-methods/i18n-lifecycles",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugin-methods/lifecycle-apis",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugin-methods/static-methods",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugins/@docusaurus/plugin-client-redirects",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugins/@docusaurus/plugin-content-blog",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugins/@docusaurus/plugin-content-docs",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugins/@docusaurus/plugin-content-pages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugins/@docusaurus/plugin-debug",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugins/@docusaurus/plugin-google-analytics",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugins/@docusaurus/plugin-google-gtag",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugins/@docusaurus/plugin-google-tag-manager",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugins/@docusaurus/plugin-ideal-image",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugins/@docusaurus/plugin-pwa",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/plugins/@docusaurus/plugin-sitemap",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/themes",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/themes/@docusaurus/theme-classic",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/themes/@docusaurus/theme-live-codeblock",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/themes/@docusaurus/theme-mermaid",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/themes/@docusaurus/theme-search-algolia",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/api/themes/configuration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/blog",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/browser-support",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/category/getting-started",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/category/guides",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/cli",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/configuration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/create-doc",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/creating-pages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/deployment",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/docs-introduction",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/docs-multi-instance",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/docusaurus-core",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/guides/whats-next",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/i18n/crowdin",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/i18n/git",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/i18n/introduction",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/i18n/tutorial",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/installation",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/markdown-features",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/markdown-features/admonitions",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/markdown-features/assets",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/markdown-features/code-blocks",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/markdown-features/diagrams",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/markdown-features/head-metadata",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/markdown-features/links",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/markdown-features/math-equations",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/markdown-features/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/markdown-features/react",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/markdown-features/tabs",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/markdown-features/toc",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/migration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/migration/automated",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/migration/manual",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/migration/translated-sites",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/migration/versioned-sites",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/playground",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/search",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/seo",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/sidebar",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/sidebar/autogenerated",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/sidebar/items",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/sidebar/multiple-sidebars",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/static-assets",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/styling-layout",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/swizzling",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/typescript-support",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/using-plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/next/versioning",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/advanced",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/advanced/architecture",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/advanced/client",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/advanced/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/advanced/routing",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/advanced/ssg",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/docusaurus-config",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/misc/@docusaurus/eslint-plugin",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/misc/@docusaurus/eslint-plugin/no-untranslated-text",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/misc/@docusaurus/eslint-plugin/string-literal-i18n-messages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/misc/@docusaurus/logger",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/misc/create-docusaurus",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugin-methods",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugin-methods/extend-infrastructure",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugin-methods/i18n-lifecycles",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugin-methods/lifecycle-apis",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugin-methods/static-methods",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-client-redirects",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-pages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-debug",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-google-analytics",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-google-gtag",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-google-tag-manager",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-ideal-image",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-pwa",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-sitemap",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/themes",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/themes/@docusaurus/theme-classic",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/themes/@docusaurus/theme-live-codeblock",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/themes/@docusaurus/theme-search-algolia",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/api/themes/configuration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/blog",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/browser-support",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/category/getting-started",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/category/guides",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/cli",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/configuration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/create-doc",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/creating-pages",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/deployment",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/docs-introduction",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/docs-multi-instance",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/docusaurus-core",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/guides/whats-next",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/i18n/crowdin",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/i18n/git",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/i18n/introduction",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/i18n/tutorial",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/installation",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/markdown-features",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/markdown-features/admonitions",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/markdown-features/assets",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/markdown-features/code-blocks",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/markdown-features/diagrams",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/markdown-features/head-metadata",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/markdown-features/links",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/markdown-features/math-equations",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/markdown-features/plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/markdown-features/react",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/markdown-features/tabs",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/markdown-features/toc",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/migration",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/migration/automated",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/migration/manual",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/migration/translated-sites",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/migration/versioned-sites",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/playground",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/search",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/seo",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/sidebar",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/sidebar/autogenerated",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/sidebar/items",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/sidebar/multiple-sidebars",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/static-assets",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/styling-layout",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/swizzling",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/typescript-support",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/using-plugins",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/docs/versioning",
+                "changefreq": "weekly",
+                "priority": 0.5
+            },
+            {
+                "loc": "https://docusaurus.io/",
+                "changefreq": "weekly",
+                "priority": 0.5
+            }
+        ]
+    }
+}
