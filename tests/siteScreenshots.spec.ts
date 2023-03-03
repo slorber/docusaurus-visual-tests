@@ -2,6 +2,7 @@
 import { test, expect } from "@playwright/test";
 import { argosScreenshot } from "@argos-ci/playwright";
 import * as path from "path";
+import * as fs from "fs";
 
 const siteUrl =
   process.env.SITE_URL ??
@@ -9,6 +10,7 @@ const siteUrl =
 
 console.log("siteUrl test", siteUrl);
 
+/*
 const pathnames: (string | [string, object])[] = [
   ["/", { maxDiffPixels: 100 }],
   "/docs",
@@ -34,6 +36,28 @@ const pathnames: (string | [string, object])[] = [
   "/changelog/2.2.0",
   "/search",
 ];
+
+ */
+
+const getPathnames = function (): string[] {
+  const sitemap = JSON.parse(
+    fs.readFileSync("./docusaurus-sitemap.json") as any
+  );
+
+  const urls: string[] = sitemap.urlset.url.map((url) => url.loc);
+  const pathnames = urls
+    .map((url) => url.replace("https://docusaurus.io/", "/"))
+    .filter(
+      (url) =>
+        !url.startsWith("/changelog") &&
+        !url.match(/^\/docs\/(\d\.\d\.\d)|(next)\//)
+    );
+  pathnames.sort();
+
+  console.log("Pathnames:\n", JSON.stringify(pathnames, null, 2));
+
+  return pathnames;
+};
 
 // Hide elements that may vary between prod/preview
 const stylesheet = `
@@ -63,6 +87,8 @@ function pathnameToArgosName(pathname: string): string {
 }
 
 test.describe("Docusaurus site screenshots", () => {
+  const pathnames = getPathnames();
+
   for (const pathnameItem of pathnames) {
     const [pathname, options] =
       typeof pathnameItem === "string" ? [pathnameItem, {}] : pathnameItem;
