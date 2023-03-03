@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@argos-ci/cli": "^0.4.4",
-    "@argos-ci/playwright": "^0.0.1",
+    "@argos-ci/playwright": "^0.0.3",
     "@playwright/test": "^1.30.0",
     "prettier": "^2.8.3"
   }
