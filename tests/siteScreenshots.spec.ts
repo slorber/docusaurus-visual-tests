@@ -2,9 +2,11 @@ import { test, expect } from "@playwright/test";
 import { argosScreenshot } from "@argos-ci/playwright";
 import * as fs from "fs";
 
-const siteUrl = process.env.SITE_URL ?? "https://docusaurus.io";
+const siteUrl =
+  process.env.SITE_URL ??
+  "https://deploy-preview-8288--docusaurus-2.netlify.app";
 
-console.log("siteUrl", siteUrl);
+console.log("siteUrl test", siteUrl);
 
 const BlacklistedPathnames: string[] = [
   "/feature-requests", // Flaky because of Canny widget
