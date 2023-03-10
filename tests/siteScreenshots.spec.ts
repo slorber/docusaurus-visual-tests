@@ -1,7 +1,5 @@
-// siteScreenshots.spec.ts
 import { test, expect } from "@playwright/test";
 import { argosScreenshot } from "@argos-ci/playwright";
-import * as path from "path";
 import * as fs from "fs";
 
 const siteUrl =
@@ -10,36 +8,9 @@ const siteUrl =
 
 console.log("siteUrl test", siteUrl);
 
-/*
-const pathnames: (string | [string, object])[] = [
-  ["/", { maxDiffPixels: 100 }],
-  "/docs",
-  "/docs/advanced/",
-  "/docs/advanced/architecture/",
-
-  "/docs/markdown-features/",
-  "/docs/markdown-features/admonitions/",
-  // "/docs/markdown-features/assets/", // TODO re-enable after https://github.com/argos-ci/argos-playwright/issues/1
-  ["/docs/markdown-features/code-blocks/", { maxDiffPixels: 1000 }],
-  "/docs/markdown-features/diagrams/",
-  "/docs/markdown-features/head-metadata/",
-  "/docs/markdown-features/links/",
-  "/docs/markdown-features/math-equations/",
-  "/docs/markdown-features/plugins/",
-  "/docs/markdown-features/react/",
-  "/docs/markdown-features/tabs/",
-  "/docs/markdown-features/toc/",
-
-  // "/blog",  // TODO re-enable after https://github.com/argos-ci/argos-playwright/issues/1
-  "/blog/2017/12/14/introducing-docusaurus/",
-
-  "/changelog/2.2.0",
-  "/search",
-];
-
- */
-
 const BlacklistedPathnames: string[] = [
+  "/feature-requests", // Canny widget page => flaky, we don't care
+
   // TODO remove once MDX 2 PR merged
   // reports unimportant false positives, see https://app.argos-ci.com/slorber/docusaurus-visual-tests/builds/10/40206590
   "/docs/api/themes/configuration",
@@ -49,6 +20,17 @@ const BlacklistedPathnames: string[] = [
   "/docs/installation",
 ];
 
+function isBlacklisted(pathname: string) {
+  return (
+    // changelog docs
+    pathname.startsWith("/changelog") ||
+    // versioned docs
+    pathname.match(/^\/docs\/(\d\.\d\.\d)|(next)\//) ||
+    // manually excluded urls
+    BlacklistedPathnames.includes(pathname)
+  );
+}
+
 const getPathnames = function (): string[] {
   const sitemap = JSON.parse(
     fs.readFileSync("./docusaurus-sitemap.json") as any
@@ -57,12 +39,7 @@ const getPathnames = function (): string[] {
   const urls: string[] = sitemap.urlset.url.map((url) => url.loc);
   const pathnames = urls
     .map((url) => url.replace("https://docusaurus.io/", "/"))
-    .filter(
-      (pathname) =>
-        !pathname.startsWith("/changelog") &&
-        !pathname.match(/^\/docs\/(\d\.\d\.\d)|(next)\//) &&
-        !BlacklistedPathnames.includes(pathname)
-    );
+    .filter((pathname) => !isBlacklisted(pathname));
 
   pathnames.sort();
 
@@ -76,6 +53,8 @@ const stylesheet = `
 iframe, 
 article.yt-lite, 
 .theme-last-updated,
+.avatar__photo,
+img[src$=".gif"],
 [class*='playgroundPreview'] {
   visibility: hidden;
 }
@@ -99,19 +78,18 @@ function pathnameToArgosName(pathname: string): string {
   return pathname;
 }
 
+function createPathnameTest(pathname: string) {
+  test(`pathname ${pathname}`, async ({ page }) => {
+    const url = siteUrl + pathname;
+    await page.goto(url);
+    await page.addStyleTag({ content: stylesheet });
+    // await expect(page).toHaveScreenshot({ fullPage: true, ...options });
+    await argosScreenshot(page, pathnameToArgosName(pathname));
+  });
+}
+
 test.describe("Docusaurus site screenshots", () => {
   const pathnames = getPathnames();
 
-  for (const pathnameItem of pathnames) {
-    const [pathname, options] =
-      typeof pathnameItem === "string" ? [pathnameItem, {}] : pathnameItem;
-
-    test(`pathname ${pathname}`, async ({ page }) => {
-      const url = siteUrl + pathname;
-      await page.goto(url);
-      await page.addStyleTag({ content: stylesheet });
-      // await expect(page).toHaveScreenshot({ fullPage: true, ...options });
-      await argosScreenshot(page, pathnameToArgosName(pathname));
-    });
-  }
+  pathnames.forEach(createPathnameTest);
 });
