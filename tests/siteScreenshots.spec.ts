@@ -7,7 +7,8 @@ const siteUrl = process.env.SITE_URL ?? "https://docusaurus.io";
 console.log("siteUrl", siteUrl);
 
 const BlacklistedPathnames: string[] = [
-  "/feature-requests", // Canny widget page => flaky, we don't care
+  "/feature-requests", // Flaky because of Canny widget
+  "/community/canary", // Flaky because of dynamic canary version fetched from npm
 
   // TODO remove once MDX 2 PR merged
   // reports unimportant false positives, see https://app.argos-ci.com/slorber/docusaurus-visual-tests/builds/10/40206590
@@ -53,6 +54,7 @@ article.yt-lite,
 .theme-last-updated,
 .avatar__photo,
 img[src$=".gif"],
+h2#using-jsx-markup ~ div > div[class*='browserWindowBody']:has(b),
 [class*='playgroundPreview'] {
   visibility: hidden;
 }
