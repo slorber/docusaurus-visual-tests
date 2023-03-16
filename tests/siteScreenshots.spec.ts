@@ -15,8 +15,6 @@ const BlacklistedPathnames: string[] = [
   "/docs/api/themes/configuration",
   // reports unimportant false positives, see https://app.argos-ci.com/slorber/docusaurus-visual-tests/builds/10/40206618
   "/docs/api/themes/@docusaurus/theme-classic",
-  // reports unimportant false positives, see https://app.argos-ci.com/slorber/docusaurus-visual-tests/builds/10/40206528
-  "/docs/installation",
 ];
 
 function isBlacklisted(pathname: string) {
