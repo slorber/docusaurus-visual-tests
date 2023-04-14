@@ -9,12 +9,13 @@
     "test": "playwright test",
     "test:pr": "SITE_URL='https://deploy-preview-8288--docusaurus-2.netlify.app' playwright test",
     "report": "playwright show-report",
-     "postinstall": "patch-package"
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@argos-ci/cli": "^0.4.4",
     "@argos-ci/playwright": "^0.0.3",
     "@playwright/test": "^1.30.0",
+    "cheerio": "^1.0.0-rc.12",
     "patch-package": "^6.5.1",
     "postinstall-postinstall": "^2.1.0",
     "prettier": "^2.8.3"

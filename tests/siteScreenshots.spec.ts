@@ -1,10 +1,19 @@
-import { test, expect } from "@playwright/test";
+import { test } from "@playwright/test";
 import { argosScreenshot } from "@argos-ci/playwright";
 import * as fs from "fs";
+import * as cheerio from "cheerio";
 
 const siteUrl = process.env.SITE_URL ?? "https://docusaurus.io";
 
-console.log("siteUrl", siteUrl);
+function extractSitemapUrls() {
+  const sitemapString = fs.readFileSync("./sitemap.xml") as any;
+  const $ = cheerio.load(sitemapString, { xmlMode: true });
+  const urls: string[] = [];
+  $("loc").each(function () {
+    urls.push($(this).text());
+  });
+  return urls;
+}
 
 const BlacklistedPathnames: string[] = [
   "/feature-requests", // Flaky because of Canny widget
@@ -29,19 +38,15 @@ function isBlacklisted(pathname: string) {
 }
 
 const getPathnames = function (): string[] {
-  const sitemap = JSON.parse(
-    fs.readFileSync("./docusaurus-sitemap.json") as any
+  const urls = extractSitemapUrls();
+  const pathnamesUnfiltered = urls.map((url) => new URL(url).pathname);
+  const pathnames = pathnamesUnfiltered.filter(
+    (pathname) => !isBlacklisted(pathname)
   );
-
-  const urls: string[] = sitemap.urlset.url.map((url) => url.loc);
-  const pathnames = urls
-    .map((url) => url.replace("https://docusaurus.io/", "/"))
-    .filter((pathname) => !isBlacklisted(pathname));
-
   pathnames.sort();
-
   console.log("Pathnames:\n", JSON.stringify(pathnames, null, 2));
-
+  console.log("Pathnames before filtering", pathnamesUnfiltered.length);
+  console.log("Pathnames after filtering", pathnames.length);
   return pathnames;
 };
 
@@ -70,7 +75,7 @@ function pathnameToArgosName(pathname: string): string {
   pathname = removeLeadingSlash(pathname);
 
   if (pathname === "") {
-    return "_ROOT";
+    return "index";
   }
 
   return pathname;
