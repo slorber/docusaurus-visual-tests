@@ -25,10 +25,10 @@
     sharp "^0.31.1"
     tmp "^0.2.1"
 
-"@argos-ci/playwright@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@argos-ci/playwright/-/playwright-0.0.3.tgz#db838cf2b7361b161e58ba1ff16bb133d1ba0ef3"
-  integrity sha512-KXWIK7Usb1DzGepRuMwWQbgHR6s+AITUxDr9y/i9aCTmWZEZYKKDv4jcOz+xc96WV3ItU3o4jYhUag21Vjf17Q==
+"@argos-ci/playwright@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@argos-ci/playwright/-/playwright-0.0.4.tgz#210bc9c7fc93908deadc6f9bb96a180654fbfa9e"
+  integrity sha512-Aiqo7yFuhN+DDy4X6BJnW+0L1RDTjHaTTbAGIJCiQmXefDp3Ic7aqxmt3kOSLsi6KoltFqLbp06rL9XXaoRg9w==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"

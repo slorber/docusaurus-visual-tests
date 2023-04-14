@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@argos-ci/cli": "^0.4.4",
-    "@argos-ci/playwright": "^0.0.3",
+    "@argos-ci/playwright": "^0.0.4",
     "@playwright/test": "^1.30.0",
     "cheerio": "^1.0.0-rc.12",
     "patch-package": "^6.5.1",
