@@ -24,6 +24,16 @@ const BlacklistedPathnames: string[] = [
   "/docs/api/themes/configuration",
   // reports unimportant false positives, see https://app.argos-ci.com/slorber/docusaurus-visual-tests/builds/10/40206618
   "/docs/api/themes/@docusaurus/theme-classic",
+
+  // TODO re-enable it later, index modified for mdx v2
+  "/tests/pages",
+
+  // Legacy MDX v1 code block test page: to update or delete?
+  "/tests/pages/code-block-tests",
+
+  // those new pages only exist in the MDX v2 branch
+  "/tests/pages/markdown-tests-md",
+  "/tests/pages/markdown-tests-mdx",
 ];
 
 function isBlacklisted(pathname: string) {
@@ -60,6 +70,11 @@ img[src$=".gif"],
 h2#using-jsx-markup ~ div > div[class*='browserWindowBody']:has(b),
 [class*='playgroundPreview'] {
   visibility: hidden;
+}
+
+/* Footnotes rendering has changed in MDX v1 => v2: let's ignore footnotes completely */
+.footnotes {
+  display: none;
 }
 `;
 
