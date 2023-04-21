@@ -3,7 +3,9 @@ import { argosScreenshot } from "@argos-ci/playwright";
 import * as fs from "fs";
 import * as cheerio from "cheerio";
 
-const siteUrl = process.env.SITE_URL ?? "https://docusaurus.io";
+const siteUrl =
+  process.env.SITE_URL ??
+  "https://deploy-preview-8288--docusaurus-2.netlify.app";
 
 function extractSitemapUrls() {
   const sitemapString = fs.readFileSync("./sitemap.xml") as any;
